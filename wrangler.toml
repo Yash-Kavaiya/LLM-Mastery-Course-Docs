@@ -1,0 +1,11 @@
+name = "my-docs-worker"
+type = "webpack"
+account_id = "your-account-id"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2023-03-14"
+
+[site]
+bucket = "./my-docs-site/build"
+entry-point = "src/index.js"wrangler publish
